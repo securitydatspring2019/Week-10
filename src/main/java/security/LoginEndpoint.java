@@ -59,6 +59,24 @@ public class LoginEndpoint {
         }
     
     private String createToken(String username, List<String> roles) throws JOSEException {
-        return  "In this exercise you must create a valid token, for Authenticated users";
+        JWSHeader header = new JWSHeader(JWSAlgorithm.HS256);
+
+        String rolesAsString = String.join(",", roles);
+        String issuer = "week_6_assignment";
+        JWSSigner signer = new MACSigner(SharedSecret.getKey());
+        Date issueDate = new Date();
+        JWTClaimsSet payload = new JWTClaimsSet.Builder()
+                .issuer(issuer)
+                .subject(username)
+                .issueTime(issueDate)
+                .expirationTime(new Date(issueDate.getTime()+TOKEN_EXPIRE_TIME))
+                .claim("username", username)
+                .claim("roles", rolesAsString)
+                .build();
+
+        SignedJWT signedJWT = new SignedJWT(header, payload);
+        signedJWT.sign(signer);
+        return signedJWT.serialize();
+        // return  "In this exercise you must create a valid token, for Authenticated users";
         }
     }
