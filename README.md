@@ -4,6 +4,11 @@
 In this week we introduce and implement a number of different authentication strategies.
 We will look at the consequences of picking a strategy, and when to pick one over the other.
 
+## Repositories:
+
+  * [Exercise](https://github.com/securitydatspring2019/Week-10.git) (this repo)
+  * [BASIC and FORM examples](https://github.com/securitydatspring2019/week-10-examples.git)
+
 ## After this week you will be able to:
 * Select an authentication strategy for a specific problem
 * Use Java’s declarative authentication and authorization features
@@ -31,3 +36,9 @@ Read [this article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentica
 
 ## Exercises for Thursday
 * [Exercises](https://docs.google.com/document/d/17qAmASaAAjEAWindIglrdg78LFVitqBklogn8OxjxsQ/edit?usp=sharing)  (long, you should write down your observations as you go through the exercises)
+
+```
+GET /myweb/index.html HTTP/1.1
+Host: localhost
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+```
