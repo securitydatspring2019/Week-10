@@ -30,4 +30,4 @@ Read [this article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentica
 * [Slides](http://slides.mydemos.dk/securityAuthentication/securityAuthentication.html#1)
 
 ## Exercises for Thursday
-* [Exercises](https://docs.google.com/document/d/1HJlF_4G4SK3hEuXMkWARtDFiXtJ86lJclKFncPguuz0/edit?usp=sharing)  (long, you should write down your observations as you go through the exercises)
+* [Exercises](https://docs.google.com/document/d/17qAmASaAAjEAWindIglrdg78LFVitqBklogn8OxjxsQ/edit?usp=sharing)  (long, you should write down your observations as you go through the exercises)
