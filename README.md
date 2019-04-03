@@ -1,4 +1,4 @@
-# Week 6 (Wednesday + Friday)
+# Week 10 (Wednesday + Thursday)
 
 ## Authentication/login- strategies
 In this week we introduce and implement a number of different authentication strategies.
@@ -11,12 +11,11 @@ We will look at the consequences of picking a strategy, and when to pick one ove
 * Use java’s security features to provide user specific data, without needing to specify a primary key
 * Understand how to implement user defined security (even if, often not recommended)
 * Implement your own JWT controlled backend
-* Add Openid Connect (OAuth2) authentication to the backend implemented above
 * Explain when to authenticate (sometimes one login is not enough)
 * Explain how to treat users passwords
 * Explain (and demonstrate) how to prevent brute force attacks
 
-_Note: Again this is a pretty big mouthful, and the lessons this week will, if you, after this week, don’t feel completely confident with the learning goals outlined above, we will summarize in week 8._
+_Note: Again this is a pretty big mouthful, and the lessons this week will, if you, after this week, don’t feel completely confident with the learning goals outlined above, we will summarize in week 11._
 
 ## What to read
 * Read the Section “Authenticate Users Safely” in [this article](https://martinfowler.com/articles/web-security-basics.html)
@@ -30,5 +29,5 @@ Read [this article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentica
 ## Slides for Wednesday
 * [Slides](http://slides.mydemos.dk/securityAuthentication/securityAuthentication.html#1)
 
-## Exercises for Friday
+## Exercises for Thursday
 * [Exercises](https://docs.google.com/document/d/1HJlF_4G4SK3hEuXMkWARtDFiXtJ86lJclKFncPguuz0/edit?usp=sharing)  (long, you should write down your observations as you go through the exercises)
