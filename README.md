@@ -37,8 +37,12 @@ Read [this article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentica
 ## Exercises for Thursday
 * [Exercises](https://docs.google.com/document/d/17qAmASaAAjEAWindIglrdg78LFVitqBklogn8OxjxsQ/edit?usp=sharing)  (long, you should write down your observations as you go through the exercises)
 
-```
-GET /myweb/index.html HTTP/1.1
-Host: localhost
-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
-```
+### Exam questions
+
+Explain about use cases and the pros & cons of the following authentication/Login-strategies
+* Java’s declarative authentication and authorization features
+
+* Basic HTTP-authentication
+* Form-based authentication
+* Token Based Authentication
+* OpenId Connect
