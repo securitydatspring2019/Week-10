@@ -40,9 +40,9 @@ Read [this article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentica
 ### Exam questions
 
 Explain about use cases and the pros & cons of the following authentication/Login-strategies
-* Java’s declarative authentication and authorization features
+* Java’s declarative authentication and authorization features  
 
 * Basic HTTP-authentication
 * Form-based authentication
 * Token Based Authentication
-* OpenId Connect
+
